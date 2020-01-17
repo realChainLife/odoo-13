@@ -20,6 +20,10 @@ sudo useradd -m -d /opt/odoo13 -U -r -s /bin/bash odoo13
 
 sudo apt install postgresql
 
+sudo apt-get install python-psycopg2
+
+sudo apt-get install libpq-dev
+
 sudo su - postgres -c "createuser -s odoo13"
 
 ** Install Wkhtmltopdf **
